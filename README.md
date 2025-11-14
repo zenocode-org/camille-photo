@@ -8,6 +8,7 @@ Ideal for photographers who want to showcase their work through a sleek, perform
 - Lightning-fast performance with Astro
 - Fully responsive design
 - Optimized image loading and handling
+- Automatic image optimization and compression
 - Easy to customize
 - Easy to organized gallery via a yaml file
 - Multiple albums support
@@ -80,10 +81,41 @@ if your file has a different name/location.
 ### Adding Your Photos
 
 1. Place your images in the `src/gallery/<album>` directory
-2. Update the gallery details in `src/gallery/gallery.yaml`. Optionally, you can run `npm run generate` to generate a
-   gallery.yaml file from the images in the directory.
-3. Update meta-data for images in the `src/gallery/gallery.yaml` file.
+2. Run `npm run generate` to automatically optimize images and generate the gallery.yaml file
+3. Update meta-data for images in the `src/gallery/gallery.yaml` file if needed
 4. Images are automatically optimized during build
+
+#### Image Optimization
+
+The gallery generator automatically optimizes your images to reduce file sizes for GitHub while maintaining preview quality. When you run `npm run generate`, the script will:
+
+- **Resize images** to a maximum dimension (default: 1920px) while maintaining aspect ratio
+- **Compress images** with configurable quality settings (default: 80%)
+- **Preserve EXIF metadata** (camera settings, capture date, etc.)
+- **Create timestamped backups** before processing (stored in `backup/` directory)
+
+**Usage:**
+
+```bash
+# Use default settings (1920px max dimension, 80% quality)
+npm run generate
+
+# Customize max dimension and quality
+npm run generate -- --max-dimension 2560 --quality 85
+
+# Skip optimization (only generate gallery.yaml)
+npm run generate -- --skip-optimization
+```
+
+**Options:**
+
+- `--max-dimension <number>` - Maximum width or height in pixels (default: 1920)
+- `--quality <number>` - JPEG/PNG quality 1-100 (default: 80)
+- `--skip-optimization` - Skip image optimization, only generate gallery.yaml
+
+**Backups:**
+
+Original images are automatically backed up to `backup/<timestamp>/` before processing. Each run creates a new timestamped folder (e.g., `backup/2024-01-15_14-30-45/`), allowing you to track backups over time and restore originals if needed. The backup directory is automatically excluded from git via `.gitignore`.
 
 ### Adding photos to the featured section
 

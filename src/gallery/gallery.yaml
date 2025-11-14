@@ -22,14 +22,16 @@ images:
       collections:
         - featured
         - nature
-    exif: {}
+    exif:
+      shutterSpeed: .nan
   - path: nature/nature-5.jpg
     meta:
       title: Nature scene 5
       description: Natural landscape showing the raw beauty of the environment.
       collections:
         - nature
-    exif: {}
+    exif:
+      shutterSpeed: .nan
   - path: nature/nature-7.jpg
     meta:
       title: Nature scene 7
@@ -68,7 +70,8 @@ images:
       description: Majestic natural landscape displaying environmental splendor.
       collections:
         - nature
-    exif: {}
+    exif:
+      shutterSpeed: .nan
   - path: street/stree-1.jpg
     meta:
       title: Street photography 1
@@ -98,6 +101,72 @@ images:
       description: ''
       collections:
         - rassemblements
+    exif:
+      captureDate: 2025-11-02T12:54:00.000Z
+      fNumber: 4
+      focalLength: 35
+      iso: 100
+      model: NIKON D7500
+      shutterSpeed: 800
+      lensModel: 35.0 mm f/1.8
+  - path: street/DSC_5026.JPG
+    meta:
+      title: Dsc 5026
+      description: ''
+      collections:
+        - street
+    exif:
+      captureDate: 2025-11-02T12:54:00.000Z
+      fNumber: 4
+      focalLength: 35
+      iso: 100
+      model: NIKON D7500
+      shutterSpeed: 800
+      lensModel: 35.0 mm f/1.8
+  - path: backup/nature/L1002174.jpg
+    meta:
+      title: L1002174
+      description: ''
+      collections:
+        - backup/nature
+    exif:
+      captureDate: 2025-03-27T10:35:21.000Z
+      fNumber: 8
+      focalLength: 28
+      iso: 100
+      model: LEICA Q3
+      shutterSpeed: 1250
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: backup/nature/nature-10.jpg
+    meta:
+      title: Nature 10
+      description: ''
+      collections:
+        - backup/nature
+    exif:
+      shutterSpeed: .nan
+  - path: backup/nature/nature-3.jpg
+    meta:
+      title: Nature 3
+      description: ''
+      collections:
+        - backup/nature
+    exif:
+      shutterSpeed: .nan
+  - path: backup/nature/nature-5.jpg
+    meta:
+      title: Nature 5
+      description: ''
+      collections:
+        - backup/nature
+    exif:
+      shutterSpeed: .nan
+  - path: backup/street/DSC_5026.JPG
+    meta:
+      title: Dsc 5026
+      description: ''
+      collections:
+        - backup/street
     exif:
       captureDate: 2025-11-02T12:54:00.000Z
       fNumber: 4
