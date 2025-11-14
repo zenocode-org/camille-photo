@@ -106,7 +106,13 @@ other collection.
 
 ## 📄 License
 
-This project is licensed under the MIT License, see the [LICENSE](LICENSE) file for details.
+This project uses a dual licensing approach:
+
+- **Source Code**: Licensed under the [MIT License](LICENSE). The code, scripts, and software components are open source and free to use, modify, and distribute.
+
+- **Photographic Images**: All images in this repository (including files in `src/gallery/` and `public/images/`) are **NOT** covered by the MIT License and remain protected by copyright. See the [COPYRIGHT](COPYRIGHT) file for details.
+
+In summary: Feel free to use and modify the code, but the photographs themselves are protected by copyright and require permission for use.
 
 ## 🤝 Contributing
 
