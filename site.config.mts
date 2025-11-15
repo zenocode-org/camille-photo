@@ -8,19 +8,14 @@ export interface SocialLink {
 }
 
 export default {
-	title: 'A Photographer',
+	title: 'Camille Rubio',
 	favicon: 'favicon.ico',
-	owner: 'A photographer',
+	owner: 'Camille Rubio',
 	profileImage: 'profile.webp',
 	socialLinks: [
 		{
-			name: 'GitHub',
-			url: 'https://github.com/zenocode-org/photo-portfolio',
-			icon: Github,
-		} as SocialLink,
-		{
 			name: 'Instagram',
-			url: 'https://www.instagram.com/',
+			url: 'https://www.instagram.com/_camcam.jpg/',
 			icon: Instagram,
 		} as SocialLink,
 	],
