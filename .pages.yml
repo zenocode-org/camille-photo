@@ -55,10 +55,6 @@ content:
                 label: Analog
                 type: boolean
                 description: Whether this is an analog photo
-          - name: exif
-            label: EXIF Data
-            type: object
-            description: Camera metadata (auto-generated, read-only)
 
 settings:
   content:
