@@ -1,0 +1,63 @@
+---
+import MainLayout from '../../layouts/MainLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allBlogPosts = await getCollection('blog');
+const blogPosts = allBlogPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<MainLayout>
+	<section class="pt-32 pb-20">
+		<div class="container-custom">
+			<div class="max-w-4xl mx-auto">
+				<div class="text-center mb-16">
+					<h1 class="text-4xl md:text-5xl font-bold mb-4">Blog</h1>
+					<p class="text-gray-600 text-lg">Découvrez mes articles sur la photographie</p>
+				</div>
+
+				<div class="space-y-8">
+					{blogPosts.length > 0 ? (
+						blogPosts.map((post) => {
+							const firstImage = post.data.images?.[0];
+							return (
+								<a
+									href={`/blog/${post.slug}`}
+									class="group block bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300"
+								>
+									{firstImage && (
+										<div class="relative w-full h-64 md:h-80 overflow-hidden">
+											<img
+												src={`/gallery/${firstImage.path}`}
+												alt={firstImage.alt}
+												class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+											/>
+										</div>
+									)}
+									<div class="p-6">
+										<h2 class="text-2xl md:text-3xl font-bold mb-3 group-hover:text-gray-600 transition-colors">
+											{post.data.title}
+										</h2>
+										<p class="text-gray-600 text-sm md:text-base leading-relaxed mb-4">
+											{post.data.description}
+										</p>
+										<time class="text-sm text-gray-500">
+											{new Date(post.data.date).toLocaleDateString('fr-FR', {
+												year: 'numeric',
+												month: 'long',
+												day: 'numeric',
+											})}
+										</time>
+									</div>
+								</a>
+							);
+						})
+					) : (
+						<div class="text-center py-12">
+							<p class="text-gray-600">Aucun article de blog disponible pour le moment.</p>
+						</div>
+					)}
+				</div>
+			</div>
+		</div>
+	</section>
+</MainLayout>
