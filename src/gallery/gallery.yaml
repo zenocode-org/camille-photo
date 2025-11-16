@@ -1,101 +1,343 @@
 collections:
-  - id: car-portrait
-    name: Portraits voitures
-  - id: nature
-    name: Nature
-  - id: street
-    name: Street
-  - id: travel
-    name: Travel
+  - id: Animaux
+    name: Animaux
+  - id: Circuit
+    name: Circuit
+  - id: Paysages
+    name: Paysages
+  - id: Portraits voitures
+    name: Portraits Voitures
+  - id: Portraits
+    name: Portraits
 images:
-  - path: car-portrait/DSC_5026.JPG
+  - path: Animaux/DSC_7473.JPG
     meta:
-      title: Dsc 5026
-      collections:
-        - car-portrait
-        - featured
-      analog: false
-  - path: nature/ChatGPT Image 28 oct. 2025, 19_03_12.png
-    meta:
-      title: Chatgpt Image 28 Oct 2025 19 03 12
+      title: Dsc 7473
       description: ''
       collections:
-        - nature
-    exif: {}
-  - path: nature/L1002174.jpg
-    meta:
-      title: L1002174
-      description: ''
-      collections:
-        - nature
+        - Animaux
     exif:
-      captureDate: 2025-03-27T10:35:21.000Z
+      captureDate: 2024-11-11T07:58:03.000Z
+      fNumber: 5.6
+      focalLength: 300
+      iso: 400
+      model: NIKON D7500
+      shutterSpeed: 40
+      lensModel: 70.0-300.0 mm f/4.5-5.6
+  - path: Animaux/DSC_7520.JPG
+    meta:
+      title: Dsc 7520
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2024-11-11T08:21:44.000Z
+      fNumber: 5.6
+      focalLength: 300
+      iso: 320
+      model: NIKON D7500
+      shutterSpeed: 320
+      lensModel: 70.0-300.0 mm f/4.5-5.6
+  - path: Circuit/DSC_2237.jpg
+    meta:
+      title: Dsc 2237
+      description: ''
+      collections:
+        - Circuit
+    exif:
+      captureDate: 2025-06-14T09:46:53.000Z
+      fNumber: 16
+      focalLength: 145
+      iso: 50
+      model: NIKON D7500
+      shutterSpeed: 60
+      lensModel: 70.0-300.0 mm f/4.5-5.6
+  - path: Circuit/DSC_2241.jpg
+    meta:
+      title: Dsc 2241
+      description: ''
+      collections:
+        - Circuit
+    exif:
+      captureDate: 2025-06-14T09:46:55.000Z
+      fNumber: 16
+      focalLength: 145
+      iso: 50
+      model: NIKON D7500
+      shutterSpeed: 60
+      lensModel: 70.0-300.0 mm f/4.5-5.6
+  - path: Paysages/DSC_1154.jpg
+    meta:
+      title: Dsc 1154
+      description: ''
+      collections:
+        - Paysages
+        - featured
+    exif:
+      captureDate: 2025-06-08T22:04:13.000Z
+      fNumber: 3.5
+      focalLength: 18
+      iso: 800
+      model: NIKON D7500
+      shutterSpeed: 0.1
+      lensModel: 18.0-140.0 mm f/3.5-5.6
+  - path: Paysages/DSC_1201.jpg
+    meta:
+      title: Dsc 1201
+      description: ''
+      collections:
+        - Paysages
+        - featured
+    exif:
+      captureDate: 2025-06-08T22:27:46.000Z
+      fNumber: 3.5
+      focalLength: 18
+      iso: 1250
+      model: NIKON D7500
+      shutterSpeed: 0.1
+      lensModel: 18.0-140.0 mm f/3.5-5.6
+  - path: Paysages/DSC_4740.JPG
+    meta:
+      title: Dsc 4740
+      description: ''
+      collections:
+        - Paysages
+        - featured
+    exif:
+      captureDate: 2025-10-06T07:24:04.000Z
       fNumber: 8
-      focalLength: 28
-      iso: 100
-      model: LEICA Q3
-      shutterSpeed: 1250
-      lensModel: SUMMILUX 1:1.7/28 ASPH.
-  - path: nature/nature-1.jpg
+      focalLength: 300
+      iso: 50
+      model: NIKON D7500
+      shutterSpeed: 3200
+      lensModel: 70.0-300.0 mm f/4.5-5.6
+  - path: Paysages/DSC_7199.PNG
     meta:
-      title: Nature 1
+      title: Dsc 7199
       description: ''
       collections:
-        - nature
+        - Paysages
     exif: {}
-  - path: nature/nature-10.jpg
+  - path: Paysages/DSC_7299.JPG
     meta:
-      title: Nature 10
+      title: Dsc 7299
       description: ''
       collections:
-        - nature
-    exif: {}
-  - path: nature/nature-2.jpg
+        - Paysages
+    exif:
+      captureDate: 2024-10-20T18:24:28.000Z
+      fNumber: 5
+      focalLength: 70
+      iso: 125
+      model: NIKON D7500
+      shutterSpeed: 250
+      lensModel: 18.0-140.0 mm f/3.5-5.6
+  - path: Paysages/DSC_7311.JPG
     meta:
-      title: Nature 2
+      title: Dsc 7311
       description: ''
       collections:
-        - nature
-    exif: {}
-  - path: nature/nature-3.jpg
+        - Paysages
+        - featured
+    exif:
+      captureDate: 2024-10-20T18:30:56.000Z
+      fNumber: 5.6
+      focalLength: 300
+      iso: 125
+      model: NIKON D7500
+      shutterSpeed: 400
+      lensModel: 70.0-300.0 mm f/4.5-5.6
+  - path: Paysages/DSC_7382.PNG
     meta:
-      title: Nature 3
+      title: Dsc 7382
       description: ''
       collections:
-        - nature
+        - Paysages
     exif: {}
-  - path: nature/nature-5.jpg
+  - path: Portraits voitures/DSC_5892.jpg
     meta:
-      title: Nature 5
+      title: Dsc 5892
       description: ''
       collections:
-        - nature
-    exif: {}
-  - path: nature/nature-7.jpg
+        - Portraits voitures
+        - featured
+    exif:
+      captureDate: 2024-08-16T12:31:42.000Z
+      fNumber: 2
+      focalLength: 35
+      iso: 320
+      model: NIKON D7500
+      shutterSpeed: 250
+      lensModel: 35.0 mm f/1.8
+  - path: Portraits voitures/DSC_5939.jpg
     meta:
-      title: Nature 7
+      title: Dsc 5939
       description: ''
       collections:
-        - nature
-    exif: {}
-  - path: nature/nature-8.jpg
+        - Portraits voitures
+        - featured
+    exif:
+      captureDate: 2024-08-16T12:53:53.000Z
+      fNumber: 2
+      focalLength: 35
+      iso: 400
+      model: NIKON D7500
+      shutterSpeed: 1000
+      lensModel: 35.0 mm f/1.8
+  - path: Portraits voitures/DSC_5999-2.jpg
     meta:
-      title: Nature 8
+      title: Dsc 5999 2
       description: ''
       collections:
-        - nature
-    exif: {}
-  - path: street/stree-1.jpg
+        - Portraits voitures
+    exif:
+      captureDate: 2024-08-16T13:36:22.000Z
+      fNumber: 3.8
+      focalLength: 26
+      iso: 1600
+      model: NIKON D7500
+      shutterSpeed: 250
+      lensModel: 18.0-140.0 mm f/3.5-5.6
+  - path: Portraits voitures/DSC_6002.jpg
     meta:
-      title: Stree 1
+      title: Dsc 6002
       description: ''
       collections:
-        - street
-    exif: {}
-  - path: travel/travel-1.jpg
+        - Portraits voitures
+        - featured
+    exif:
+      captureDate: 2024-08-16T13:37:21.000Z
+      fNumber: 5
+      focalLength: 62
+      iso: 1600
+      model: NIKON D7500
+      shutterSpeed: 250
+      lensModel: 18.0-140.0 mm f/3.5-5.6
+  - path: Portraits voitures/DSC_6083.jpg
     meta:
-      title: Travel 1
+      title: Dsc 6083
       description: ''
       collections:
-        - travel
-    exif: {}
+        - Portraits voitures
+    exif:
+      captureDate: 2024-08-17T09:48:23.000Z
+      fNumber: 4.5
+      focalLength: 42
+      iso: 400
+      model: NIKON D7500
+      shutterSpeed: 320
+      lensModel: 18.0-140.0 mm f/3.5-5.6
+  - path: Portraits voitures/DSC_9789.jpg
+    meta:
+      title: Dsc 9789
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2025-05-08T10:57:37.000Z
+      fNumber: 2.8
+      focalLength: 35
+      iso: 200
+      model: NIKON D7500
+      shutterSpeed: 5000
+      lensModel: 35.0 mm f/1.8
+  - path: Portraits voitures/DSC_9855.jpg
+    meta:
+      title: Dsc 9855
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2025-05-08T11:19:47.000Z
+      fNumber: 2.8
+      focalLength: 35
+      iso: 80
+      model: NIKON D7500
+      shutterSpeed: 2500
+      lensModel: 35.0 mm f/1.8
+  - path: Portraits/DSC_6854 2.JPG
+    meta:
+      title: Dsc 6854 2
+      description: ''
+      collections:
+        - Portraits
+    exif:
+      captureDate: 2024-10-09T15:45:05.000Z
+      fNumber: 3.8
+      focalLength: 26
+      iso: 200
+      model: NIKON D7500
+      shutterSpeed: 400
+      lensModel: 18.0-140.0 mm f/3.5-5.6
+  - path: Portraits/DSC_6939.JPG
+    meta:
+      title: Dsc 6939
+      description: ''
+      collections:
+        - Portraits
+    exif:
+      captureDate: 2024-10-09T16:41:15.000Z
+      fNumber: 1.8
+      focalLength: 50
+      iso: 160
+      model: NIKON D7500
+      shutterSpeed: 2500
+      lensModel: 50.0 mm f/1.8
+  - path: Portraits/DSC_6964 2.JPG
+    meta:
+      title: Dsc 6964 2
+      description: ''
+      collections:
+        - Portraits
+    exif:
+      captureDate: 2024-10-09T16:43:56.000Z
+      fNumber: 1.8
+      focalLength: 50
+      iso: 160
+      model: NIKON D7500
+      shutterSpeed: 2500
+      lensModel: 50.0 mm f/1.8
+  - path: Portraits/DSC_6976 2.JPG
+    meta:
+      title: Dsc 6976 2
+      description: ''
+      collections:
+        - Portraits
+        - featured
+    exif:
+      captureDate: 2024-10-09T16:47:16.000Z
+      fNumber: 1.8
+      focalLength: 50
+      iso: 160
+      model: NIKON D7500
+      shutterSpeed: 2500
+      lensModel: 50.0 mm f/1.8
+  - path: Portraits/DSC_7013.JPG
+    meta:
+      title: Dsc 7013
+      description: ''
+      collections:
+        - Portraits
+        - featured
+    exif:
+      captureDate: 2024-10-09T16:50:50.000Z
+      fNumber: 1.8
+      focalLength: 50
+      iso: 160
+      model: NIKON D7500
+      shutterSpeed: 2000
+      lensModel: 50.0 mm f/1.8
+  - path: Portraits/DSC_7022 2.JPG
+    meta:
+      title: Dsc 7022 2
+      description: ''
+      collections:
+        - Portraits
+    exif:
+      captureDate: 2024-10-09T16:52:26.000Z
+      fNumber: 1.8
+      focalLength: 50
+      iso: 160
+      model: NIKON D7500
+      shutterSpeed: 2000
+      lensModel: 50.0 mm f/1.8
