@@ -6,7 +6,7 @@
 		"dev": "astro dev",
 		"build": "astro build",
 		"preview": "astro preview",
-		"start": "astro build && astro preview",
+		"start": "pnpm generate && astro build && astro preview",
 		"astro": "astro",
 		"prettier": "prettier . --write",
 		"test": "vitest",
