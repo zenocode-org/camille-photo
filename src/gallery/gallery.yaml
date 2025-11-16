@@ -1,6 +1,12 @@
 collections:
   - id: car-portrait
     name: Portraits voitures
+  - id: nature
+    name: Nature
+  - id: street
+    name: Street
+  - id: travel
+    name: Travel
 images:
   - path: car-portrait/DSC_5026.JPG
     meta:
@@ -9,3 +15,87 @@ images:
         - car-portrait
         - featured
       analog: false
+  - path: nature/ChatGPT Image 28 oct. 2025, 19_03_12.png
+    meta:
+      title: Chatgpt Image 28 Oct 2025 19 03 12
+      description: ''
+      collections:
+        - nature
+    exif: {}
+  - path: nature/L1002174.jpg
+    meta:
+      title: L1002174
+      description: ''
+      collections:
+        - nature
+    exif:
+      captureDate: 2025-03-27T10:35:21.000Z
+      fNumber: 8
+      focalLength: 28
+      iso: 100
+      model: LEICA Q3
+      shutterSpeed: 1250
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: nature/nature-1.jpg
+    meta:
+      title: Nature 1
+      description: ''
+      collections:
+        - nature
+    exif: {}
+  - path: nature/nature-10.jpg
+    meta:
+      title: Nature 10
+      description: ''
+      collections:
+        - nature
+    exif: {}
+  - path: nature/nature-2.jpg
+    meta:
+      title: Nature 2
+      description: ''
+      collections:
+        - nature
+    exif: {}
+  - path: nature/nature-3.jpg
+    meta:
+      title: Nature 3
+      description: ''
+      collections:
+        - nature
+    exif: {}
+  - path: nature/nature-5.jpg
+    meta:
+      title: Nature 5
+      description: ''
+      collections:
+        - nature
+    exif: {}
+  - path: nature/nature-7.jpg
+    meta:
+      title: Nature 7
+      description: ''
+      collections:
+        - nature
+    exif: {}
+  - path: nature/nature-8.jpg
+    meta:
+      title: Nature 8
+      description: ''
+      collections:
+        - nature
+    exif: {}
+  - path: street/stree-1.jpg
+    meta:
+      title: Stree 1
+      description: ''
+      collections:
+        - street
+    exif: {}
+  - path: travel/travel-1.jpg
+    meta:
+      title: Travel 1
+      description: ''
+      collections:
+        - travel
+    exif: {}
