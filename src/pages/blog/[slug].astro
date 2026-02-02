@@ -32,26 +32,30 @@ const { Content } = await post.render();
 						<h1 class="text-4xl md:text-5xl font-bold mb-4">{post.data.title}</h1>
 						<p class="text-xl text-gray-600 mb-6">{post.data.description}</p>
 						<time class="text-sm text-gray-500 block mb-8">
-							{new Date(post.data.date).toLocaleDateString('fr-FR', {
-								year: 'numeric',
-								month: 'long',
-								day: 'numeric',
-							})}
+							{
+								new Date(post.data.date).toLocaleDateString('fr-FR', {
+									year: 'numeric',
+									month: 'long',
+									day: 'numeric',
+								})
+							}
 						</time>
 
-						{post.data.images && post.data.images.length > 0 && (
-							<div class="mb-8 space-y-6">
-								{post.data.images.map((image) => (
-									<div class="relative w-full rounded-lg overflow-hidden shadow-lg">
-										<img
-											src={`/gallery/${image.path}`}
-											alt={image.alt}
-											class="w-full h-auto object-cover"
-										/>
-									</div>
-								))}
-							</div>
-						)}
+						{
+							post.data.images && post.data.images.length > 0 && (
+								<div class="mb-8 space-y-6">
+									{post.data.images.map((image) => (
+										<div class="relative w-full rounded-lg overflow-hidden shadow-lg">
+											<img
+												src={`/gallery/${image.path}`}
+												alt={image.alt}
+												class="w-full h-auto object-cover"
+											/>
+										</div>
+									))}
+								</div>
+							)
+						}
 
 						<div class="prose prose-lg max-w-none text-gray-700">
 							<Content />

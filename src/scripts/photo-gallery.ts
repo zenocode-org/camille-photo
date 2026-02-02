@@ -12,6 +12,18 @@ export function setupPhotoGallery() {
 		height: 'auto',
 	});
 
+	// Close lightbox when clicking on a collection link
+	document.addEventListener(
+		'click',
+		(e) => {
+			const link = (e.target as HTMLElement).closest('a[href^="/collections"]');
+			if (link) {
+				lightbox.close();
+			}
+		},
+		true,
+	);
+
 	// View switcher
 	const gridViewBtn = document.getElementById('view-grid');
 	const verticalViewBtn = document.getElementById('view-vertical');

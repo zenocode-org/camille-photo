@@ -89,7 +89,7 @@ const sortedCollections = collections
 					id="clear-filters"
 					class="clear-filters-text text-xs text-gray-500 hover:text-black cursor-pointer transition-colors"
 				>
-					Clear Filters
+					Effacer les filtres
 				</span>
 			</div>
 		</div>
@@ -404,7 +404,7 @@ const sortedCollections = collections
 
 		const isMobile = window.innerWidth < 1024; // lg breakpoint
 		let sidebar: HTMLElement | null = null;
-		
+
 		// On desktop, use desktop sidebar; on mobile, use mobile sidebar
 		if (!isMobile) {
 			// Desktop: find sidebar in desktop container
@@ -419,7 +419,7 @@ const sortedCollections = collections
 				sidebar = mobileContainer.querySelector('.photo-grid-sidebar') as HTMLElement;
 			}
 		}
-		
+
 		// Fallback: if not found, try to find any visible sidebar
 		if (!sidebar) {
 			const allSidebars = document.querySelectorAll('.photo-grid-sidebar');
@@ -433,9 +433,9 @@ const sortedCollections = collections
 				}
 			}
 		}
-		
+
 		if (!sidebar) return;
-		
+
 		// Skip if this sidebar is already initialized
 		if (sidebar.getAttribute('data-filtering-initialized') === 'true') {
 			return;
@@ -674,6 +674,11 @@ const sortedCollections = collections
 
 			if (!filterType) return;
 
+			// Close photo preview when clicking on a collection filter
+			if (filterType === 'collection') {
+				window.dispatchEvent(new CustomEvent('photo-grid:close-preview'));
+			}
+
 			// Toggle filter
 			if (activeFilters[filterType as keyof FilterState] === filterValue) {
 				// Deselect if already selected
@@ -746,7 +751,7 @@ const sortedCollections = collections
 		}
 
 		applyFilters();
-		
+
 		// Mark this sidebar as initialized
 		if (sidebar) {
 			sidebar.setAttribute('data-filtering-initialized', 'true');
@@ -758,7 +763,7 @@ const sortedCollections = collections
 		const initSidebarFiltering = () => {
 			setupSidebarFiltering();
 		};
-		
+
 		if (document.readyState === 'loading') {
 			document.addEventListener('DOMContentLoaded', () => {
 				// Small delay to ensure CSS classes are applied
