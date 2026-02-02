@@ -49,8 +49,13 @@ export default function PhotoVerticalViewManager({ images }: PhotoVerticalViewMa
 		// Use event delegation on the document to handle dynamically added/removed elements
 		document.addEventListener('click', handleImageClick, true);
 
+		// Close vertical view when a collection filter is clicked (e.g. in sidebar)
+		const handleClosePreview = () => setSelectedImage(null);
+		window.addEventListener('photo-grid:close-preview', handleClosePreview);
+
 		return () => {
 			document.removeEventListener('click', handleImageClick, true);
+			window.removeEventListener('photo-grid:close-preview', handleClosePreview);
 		};
 	}, [images]);
 

@@ -10,9 +10,562 @@ collections:
   - id: Portraits
     name: Portraits
 images:
+  - path: Animaux/DSC_1451.JPG
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2026-01-16T10:02:53.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 500
+      model: NIKON D800
+      shutterSpeed: 800
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_1454.JPG
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2026-01-16T10:03:40.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 500
+      model: NIKON D800
+      shutterSpeed: 800
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_1456.JPG
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+        - featured
+    exif:
+      captureDate: 2026-01-16T10:03:42.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 500
+      model: NIKON D800
+      shutterSpeed: 800
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_1467.JPG
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2026-01-16T10:04:22.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 400
+      model: NIKON D800
+      shutterSpeed: 800
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_1533.jpg
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2026-01-16T10:10:39.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 400
+      model: NIKON D800
+      shutterSpeed: 1600
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_2244.jpg
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+        - featured
+    exif:
+      captureDate: 2026-01-25T09:16:44.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 200
+      model: NIKON D800
+      shutterSpeed: 1250
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_2325.jpg
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2026-01-25T09:36:52.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 400
+      model: NIKON D800
+      shutterSpeed: 1000
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_2342.jpg
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2026-01-25T09:53:45.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 200
+      model: NIKON D800
+      shutterSpeed: 1250
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_2545.JPG
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2026-02-01T08:15:31.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 640
+      model: NIKON D800
+      shutterSpeed: 1600
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_2576.JPG
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2026-02-01T08:23:54.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 640
+      model: NIKON D800
+      shutterSpeed: 2000
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_2626.JPG
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2026-02-01T08:37:07.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 640
+      model: NIKON D800
+      shutterSpeed: 800
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_2671.JPG
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+        - featured
+    exif:
+      captureDate: 2026-02-01T08:58:03.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 640
+      model: NIKON D800
+      shutterSpeed: 1000
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_2674.JPG
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2026-02-01T08:58:07.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 640
+      model: NIKON D800
+      shutterSpeed: 1000
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_2688.JPG
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2026-02-01T08:59:08.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 640
+      model: NIKON D800
+      shutterSpeed: 1000
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_2693.JPG
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2026-02-01T08:59:14.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 640
+      model: NIKON D800
+      shutterSpeed: 1000
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_2695.JPG
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2026-02-01T08:59:17.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 640
+      model: NIKON D800
+      shutterSpeed: 1000
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_2696.JPG
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2026-02-01T08:59:17.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 640
+      model: NIKON D800
+      shutterSpeed: 1000
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_2698.JPG
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+        - featured
+    exif:
+      captureDate: 2026-02-01T08:59:19.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 640
+      model: NIKON D800
+      shutterSpeed: 1000
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_2702.JPG
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2026-02-01T08:59:23.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 640
+      model: NIKON D800
+      shutterSpeed: 1000
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_2863.JPG
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2026-02-02T10:01:22.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 500
+      model: NIKON D800
+      shutterSpeed: 1600
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_2865.JPG
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2026-02-02T10:01:23.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 500
+      model: NIKON D800
+      shutterSpeed: 1600
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_2871.JPG
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+        - featured
+    exif:
+      captureDate: 2026-02-02T10:01:31.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 500
+      model: NIKON D800
+      shutterSpeed: 1600
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_2872.JPG
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+        - featured
+    exif:
+      captureDate: 2026-02-02T10:01:32.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 500
+      model: NIKON D800
+      shutterSpeed: 1600
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_2873.JPG
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2026-02-02T10:01:32.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 500
+      model: NIKON D800
+      shutterSpeed: 1600
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_2875.JPG
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2026-02-02T10:01:34.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 500
+      model: NIKON D800
+      shutterSpeed: 1600
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_2892.JPG
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2026-02-02T10:06:43.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 250
+      model: NIKON D800
+      shutterSpeed: 2000
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_2899.JPG
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2026-02-02T10:06:58.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 250
+      model: NIKON D800
+      shutterSpeed: 2000
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_4792.jpg
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2025-10-25T11:07:19.000Z
+      fNumber: 5.6
+      focalLength: 300
+      iso: 500
+      model: NIKON D7500
+      shutterSpeed: 4000
+      lensModel: 70.0-300.0 mm f/4.5-5.6
+  - path: Animaux/DSC_4796.jpg
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2025-10-25T11:07:40.000Z
+      fNumber: 5.6
+      focalLength: 300
+      iso: 500
+      model: NIKON D7500
+      shutterSpeed: 4000
+      lensModel: 70.0-300.0 mm f/4.5-5.6
+  - path: Animaux/DSC_4830.jpg
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2025-10-26T09:51:57.000Z
+      fNumber: 5.6
+      focalLength: 300
+      iso: 200
+      model: NIKON D7500
+      shutterSpeed: 4000
+      lensModel: 70.0-300.0 mm f/4.5-5.6
+  - path: Animaux/DSC_4839.jpg
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+        - featured
+    exif:
+      captureDate: 2025-10-26T09:52:04.000Z
+      fNumber: 5.6
+      focalLength: 300
+      iso: 200
+      model: NIKON D7500
+      shutterSpeed: 4000
+      lensModel: 70.0-300.0 mm f/4.5-5.6
+  - path: Animaux/DSC_5247.jpg
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2025-11-08T14:20:46.000Z
+      fNumber: 6.3
+      focalLength: 220
+      iso: 320
+      model: NIKON D7500
+      shutterSpeed: 1000
+      lensModel: 70.0-300.0 mm f/4.5-5.6
+  - path: Animaux/DSC_5257.jpg
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2025-11-08T14:23:52.000Z
+      fNumber: 6.3
+      focalLength: 300
+      iso: 320
+      model: NIKON D7500
+      shutterSpeed: 800
+      lensModel: 70.0-300.0 mm f/4.5-5.6
+  - path: Animaux/DSC_5260.jpg
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2025-11-08T14:24:30.000Z
+      fNumber: 6.3
+      focalLength: 300
+      iso: 800
+      model: NIKON D7500
+      shutterSpeed: 800
+      lensModel: 70.0-300.0 mm f/4.5-5.6
+  - path: Animaux/DSC_6492.jpg
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2025-12-06T08:54:26.000Z
+      fNumber: 5.6
+      focalLength: 480
+      iso: 125
+      model: NIKON D7500
+      shutterSpeed: 800
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_6716.jpg
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2025-12-06T11:13:29.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 50
+      model: NIKON D7500
+      shutterSpeed: 640
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_6968.JPG
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2025-12-07T09:01:38.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 250
+      model: NIKON D7500
+      shutterSpeed: 800
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_7084.JPG
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2025-12-07T09:08:45.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 200
+      model: NIKON D7500
+      shutterSpeed: 1000
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Animaux/DSC_7376.jpg
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2025-12-19T12:25:49.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 800
+      model: NIKON D7500
+      shutterSpeed: 1000
+      lensModel: 200.0-500.0 mm f/5.6
   - path: Animaux/DSC_7473.JPG
     meta:
-      title: Dsc 7473
+      title: Animaux
       description: ''
       collections:
         - Animaux
@@ -26,7 +579,7 @@ images:
       lensModel: 70.0-300.0 mm f/4.5-5.6
   - path: Animaux/DSC_7520.JPG
     meta:
-      title: Dsc 7520
+      title: Animaux
       description: ''
       collections:
         - Animaux
@@ -38,9 +591,38 @@ images:
       model: NIKON D7500
       shutterSpeed: 320
       lensModel: 70.0-300.0 mm f/4.5-5.6
+  - path: Animaux/DSC_7833.JPG
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+    exif:
+      captureDate: 2026-01-04T11:34:47.000Z
+      fNumber: 1.8
+      focalLength: 35
+      iso: 100
+      model: NIKON D7500
+      shutterSpeed: 1000
+      lensModel: 35.0 mm f/1.8
+  - path: Animaux/DSC_7849.JPG
+    meta:
+      title: Animaux
+      description: ''
+      collections:
+        - Animaux
+        - featured
+    exif:
+      captureDate: 2026-01-04T11:38:26.000Z
+      fNumber: 1.8
+      focalLength: 35
+      iso: 160
+      model: NIKON D7500
+      shutterSpeed: 1000
+      lensModel: 35.0 mm f/1.8
   - path: Circuit/DSC_2237.jpg
     meta:
-      title: Dsc 2237
+      title: Circuit
       description: ''
       collections:
         - Circuit
@@ -54,7 +636,7 @@ images:
       lensModel: 70.0-300.0 mm f/4.5-5.6
   - path: Circuit/DSC_2241.jpg
     meta:
-      title: Dsc 2241
+      title: Circuit
       description: ''
       collections:
         - Circuit
@@ -66,61 +648,123 @@ images:
       model: NIKON D7500
       shutterSpeed: 60
       lensModel: 70.0-300.0 mm f/4.5-5.6
-  - path: Paysages/DSC_1154.jpg
+  - path: Paysages/DSC_2088.jpg
     meta:
-      title: Dsc 1154
+      title: Paysages
       description: ''
       collections:
         - Paysages
         - featured
     exif:
-      captureDate: 2025-06-08T22:04:13.000Z
-      fNumber: 3.5
-      focalLength: 18
-      iso: 800
+      captureDate: 2026-01-24T13:14:06.000Z
+      fNumber: 5.6
+      focalLength: 500
+      iso: 250
+      model: NIKON D800
+      shutterSpeed: 640
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Paysages/DSC_2100.jpg
+    meta:
+      title: Paysages
+      description: ''
+      collections:
+        - Paysages
+    exif:
+      captureDate: 2026-01-24T14:05:11.000Z
+      fNumber: 5.6
+      focalLength: 200
+      iso: 250
+      model: NIKON D800
+      shutterSpeed: 1250
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Paysages/DSC_2104.jpg
+    meta:
+      title: Paysages
+      description: ''
+      collections:
+        - Paysages
+    exif:
+      captureDate: 2026-01-24T14:07:09.000Z
+      fNumber: 5.6
+      focalLength: 200
+      iso: 250
+      model: NIKON D800
+      shutterSpeed: 1250
+      lensModel: 200.0-500.0 mm f/5.6
+  - path: Paysages/DSC_2516.jpg
+    meta:
+      title: Paysages
+      description: ''
+      collections:
+        - Paysages
+    exif:
+      captureDate: 2026-01-31T19:39:00.000Z
+      fNumber: 3.2
+      focalLength: 52
+      iso: 640
+      model: NIKON D800
+      shutterSpeed: 1.25
+      lensModel: TAMRON SP 24-70mm F2.8 Di VC USD A007N
+  - path: Paysages/DSC_4038.jpg
+    meta:
+      title: Paysages
+      description: ''
+      collections:
+        - Paysages
+        - featured
+    exif:
+      captureDate: 2025-08-21T22:15:54.000Z
+      fNumber: 4.8
+      focalLength: 90
+      iso: 640
       model: NIKON D7500
-      shutterSpeed: 0.1
-      lensModel: 18.0-140.0 mm f/3.5-5.6
-  - path: Paysages/DSC_1201.jpg
+      shutterSpeed: 0.25
+      lensModel: 70.0-300.0 mm f/4.5-5.6
+  - path: Paysages/DSC_4311.jpg
     meta:
-      title: Dsc 1201
+      title: Paysages
       description: ''
       collections:
         - Paysages
-        - featured
     exif:
-      captureDate: 2025-06-08T22:27:46.000Z
+      captureDate: 2025-09-07T11:49:17.000Z
       fNumber: 3.5
-      focalLength: 18
-      iso: 1250
-      model: NIKON D7500
-      shutterSpeed: 0.1
-      lensModel: 18.0-140.0 mm f/3.5-5.6
-  - path: Paysages/DSC_4740.JPG
-    meta:
-      title: Dsc 4740
-      description: ''
-      collections:
-        - Paysages
-        - featured
-    exif:
-      captureDate: 2025-10-06T07:24:04.000Z
-      fNumber: 8
-      focalLength: 300
-      iso: 50
+      focalLength: 35
+      iso: 100
       model: NIKON D7500
       shutterSpeed: 3200
-      lensModel: 70.0-300.0 mm f/4.5-5.6
-  - path: Paysages/DSC_7199.PNG
+      lensModel: 35.0 mm f/1.8
+  - path: Paysages/DSC_6292.jpg
     meta:
-      title: Dsc 7199
+      title: Paysages
       description: ''
       collections:
         - Paysages
-    exif: {}
+    exif:
+      captureDate: 2025-11-30T08:31:07.000Z
+      fNumber: 9
+      focalLength: 300
+      iso: 400
+      model: NIKON D7500
+      shutterSpeed: 400
+      lensModel: 70.0-300.0 mm f/4.5-5.6
+  - path: Paysages/DSC_6738.jpg
+    meta:
+      title: Paysages
+      description: ''
+      collections:
+        - Paysages
+    exif:
+      captureDate: 2025-12-06T11:17:28.000Z
+      fNumber: 5.6
+      focalLength: 240
+      iso: 80
+      model: NIKON D7500
+      shutterSpeed: 1000
+      lensModel: 200.0-500.0 mm f/5.6
   - path: Paysages/DSC_7299.JPG
     meta:
-      title: Dsc 7299
+      title: Paysages
       description: ''
       collections:
         - Paysages
@@ -132,61 +776,448 @@ images:
       model: NIKON D7500
       shutterSpeed: 250
       lensModel: 18.0-140.0 mm f/3.5-5.6
-  - path: Paysages/DSC_7311.JPG
+  - path: Portraits voitures/DSC_1153.jpg
     meta:
-      title: Dsc 7311
+      title: Portraits Voitures
       description: ''
       collections:
-        - Paysages
+        - Portraits voitures
+    exif:
+      captureDate: 2026-01-11T10:31:16.000Z
+      fNumber: 2.8
+      focalLength: 40
+      iso: 800
+      model: NIKON D800
+      shutterSpeed: 640
+      lensModel: TAMRON SP 24-70mm F2.8 Di VC USD A007N
+  - path: Portraits voitures/DSC_1166.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2026-01-11T10:34:54.000Z
+      fNumber: 2.8
+      focalLength: 55
+      iso: 800
+      model: NIKON D800
+      shutterSpeed: 640
+      lensModel: TAMRON SP 24-70mm F2.8 Di VC USD A007N
+  - path: Portraits voitures/DSC_1201.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2026-01-11T10:47:35.000Z
+      fNumber: 2.8
+      focalLength: 48
+      iso: 800
+      model: NIKON D800
+      shutterSpeed: 400
+      lensModel: TAMRON SP 24-70mm F2.8 Di VC USD A007N
+  - path: Portraits voitures/DSC_1205.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2026-01-11T10:48:39.000Z
+      fNumber: 2.8
+      focalLength: 70
+      iso: 800
+      model: NIKON D800
+      shutterSpeed: 400
+      lensModel: TAMRON SP 24-70mm F2.8 Di VC USD A007N
+  - path: Portraits voitures/DSC_1213.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2026-01-11T10:50:57.000Z
+      fNumber: 2.8
+      focalLength: 42
+      iso: 800
+      model: NIKON D800
+      shutterSpeed: 400
+      lensModel: TAMRON SP 24-70mm F2.8 Di VC USD A007N
+  - path: Portraits voitures/DSC_1221.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2026-01-11T10:55:28.000Z
+      fNumber: 2.8
+      focalLength: 65
+      iso: 800
+      model: NIKON D800
+      shutterSpeed: 400
+      lensModel: TAMRON SP 24-70mm F2.8 Di VC USD A007N
+  - path: Portraits voitures/DSC_1242.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2026-01-11T11:02:44.000Z
+      fNumber: 2.8
+      focalLength: 56
+      iso: 800
+      model: NIKON D800
+      shutterSpeed: 200
+      lensModel: TAMRON SP 24-70mm F2.8 Di VC USD A007N
+  - path: Portraits voitures/DSC_1243.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2026-01-11T11:03:02.000Z
+      fNumber: 2.8
+      focalLength: 36
+      iso: 800
+      model: NIKON D800
+      shutterSpeed: 200
+      lensModel: TAMRON SP 24-70mm F2.8 Di VC USD A007N
+  - path: Portraits voitures/DSC_1273.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
         - featured
     exif:
-      captureDate: 2024-10-20T18:30:56.000Z
+      captureDate: 2026-01-11T11:20:07.000Z
+      fNumber: 5
+      focalLength: 58
+      iso: 800
+      model: NIKON D800
+      shutterSpeed: 250
+      lensModel: TAMRON SP 24-70mm F2.8 Di VC USD A007N
+  - path: Portraits voitures/DSC_1291.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2026-01-11T11:28:37.000Z
+      fNumber: 2.8
+      focalLength: 70
+      iso: 800
+      model: NIKON D800
+      shutterSpeed: 400
+      lensModel: TAMRON SP 24-70mm F2.8 Di VC USD A007N
+  - path: Portraits voitures/DSC_1316.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2026-01-11T12:07:05.000Z
+      fNumber: 2.8
+      focalLength: 70
+      iso: 1250
+      model: NIKON D800
+      shutterSpeed: 500
+      lensModel: TAMRON SP 24-70mm F2.8 Di VC USD A007N
+  - path: Portraits voitures/DSC_1834.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2026-01-18T10:04:30.000Z
+      fNumber: 5
+      focalLength: 46
+      iso: 250
+      model: NIKON D800
+      shutterSpeed: 250
+      lensModel: TAMRON SP 24-70mm F2.8 Di VC USD A007N
+  - path: Portraits voitures/DSC_1956.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2026-01-18T11:00:05.000Z
+      fNumber: 2.8
+      focalLength: 70
+      iso: 250
+      model: NIKON D800
+      shutterSpeed: 250
+      lensModel: TAMRON SP 24-70mm F2.8 Di VC USD A007N
+  - path: Portraits voitures/DSC_1973.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2026-01-18T11:08:29.000Z
+      fNumber: 2.8
+      focalLength: 38
+      iso: 250
+      model: NIKON D800
+      shutterSpeed: 400
+      lensModel: TAMRON SP 24-70mm F2.8 Di VC USD A007N
+  - path: Portraits voitures/DSC_2017.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+        - featured
+    exif:
+      captureDate: 2026-01-18T11:26:08.000Z
+      fNumber: 2.8
+      focalLength: 32
+      iso: 250
+      model: NIKON D800
+      shutterSpeed: 400
+      lensModel: TAMRON SP 24-70mm F2.8 Di VC USD A007N
+  - path: Portraits voitures/DSC_2021.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2026-01-18T11:27:05.000Z
+      fNumber: 2.8
+      focalLength: 58
+      iso: 250
+      model: NIKON D800
+      shutterSpeed: 400
+      lensModel: TAMRON SP 24-70mm F2.8 Di VC USD A007N
+  - path: Portraits voitures/DSC_2031.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2026-01-18T11:30:53.000Z
+      fNumber: 2.8
+      focalLength: 48
+      iso: 250
+      model: NIKON D800
+      shutterSpeed: 400
+      lensModel: TAMRON SP 24-70mm F2.8 Di VC USD A007N
+  - path: Portraits voitures/DSC_2039.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+        - featured
+    exif:
+      captureDate: 2026-01-18T11:32:11.000Z
+      fNumber: 2.8
+      focalLength: 52
+      iso: 250
+      model: NIKON D800
+      shutterSpeed: 400
+      lensModel: TAMRON SP 24-70mm F2.8 Di VC USD A007N
+  - path: Portraits voitures/DSC_2041.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2026-01-18T11:32:52.000Z
+      fNumber: 2.8
+      focalLength: 70
+      iso: 250
+      model: NIKON D800
+      shutterSpeed: 400
+      lensModel: TAMRON SP 24-70mm F2.8 Di VC USD A007N
+  - path: Portraits voitures/DSC_2045.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2026-01-18T11:34:26.000Z
+      fNumber: 2.8
+      focalLength: 55
+      iso: 250
+      model: NIKON D800
+      shutterSpeed: 400
+      lensModel: TAMRON SP 24-70mm F2.8 Di VC USD A007N
+  - path: Portraits voitures/DSC_2061.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2026-01-18T11:52:54.000Z
+      fNumber: 2.8
+      focalLength: 30
+      iso: 250
+      model: NIKON D800
+      shutterSpeed: 400
+      lensModel: TAMRON SP 24-70mm F2.8 Di VC USD A007N
+  - path: Portraits voitures/DSC_3416.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2025-08-14T21:29:23.000Z
+      fNumber: 1.8
+      focalLength: 35
+      iso: 100
+      model: NIKON D7500
+      shutterSpeed: 6
+      lensModel: 35.0 mm f/1.8
+  - path: Portraits voitures/DSC_5403.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2025-11-11T11:49:11.000Z
+      fNumber: 2.8
+      focalLength: 35
+      iso: 50
+      model: NIKON D7500
+      shutterSpeed: 2000
+      lensModel: 35.0 mm f/1.8
+  - path: Portraits voitures/DSC_5790.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+        - featured
+    exif:
+      captureDate: 2025-11-21T12:22:02.000Z
+      fNumber: 1.8
+      focalLength: 35
+      iso: 64
+      model: NIKON D7500
+      shutterSpeed: 3200
+      lensModel: 35.0 mm f/1.8
+  - path: Portraits voitures/DSC_5796.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2025-11-21T12:23:16.000Z
+      fNumber: 1.8
+      focalLength: 35
+      iso: 64
+      model: NIKON D7500
+      shutterSpeed: 3200
+      lensModel: 35.0 mm f/1.8
+  - path: Portraits voitures/DSC_5813.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2025-11-21T12:28:37.000Z
+      fNumber: 1.8
+      focalLength: 35
+      iso: 64
+      model: NIKON D7500
+      shutterSpeed: 3200
+      lensModel: 35.0 mm f/1.8
+  - path: Portraits voitures/DSC_5839.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2025-11-21T12:36:58.000Z
+      fNumber: 4.8
+      focalLength: 52
+      iso: 200
+      model: NIKON D7500
+      shutterSpeed: 1000
+      lensModel: 18.0-140.0 mm f/3.5-5.6
+  - path: Portraits voitures/DSC_5846.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2025-11-21T12:37:50.000Z
       fNumber: 5.6
-      focalLength: 300
+      focalLength: 112
+      iso: 200
+      model: NIKON D7500
+      shutterSpeed: 1000
+      lensModel: 18.0-140.0 mm f/3.5-5.6
+  - path: Portraits voitures/DSC_5851.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2025-11-21T12:38:39.000Z
+      fNumber: 5.6
+      focalLength: 140
+      iso: 200
+      model: NIKON D7500
+      shutterSpeed: 1000
+      lensModel: 18.0-140.0 mm f/3.5-5.6
+  - path: Portraits voitures/DSC_5886.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2025-11-22T10:14:54.000Z
+      fNumber: 2.8
+      focalLength: 35
       iso: 125
       model: NIKON D7500
-      shutterSpeed: 400
-      lensModel: 70.0-300.0 mm f/4.5-5.6
-  - path: Paysages/DSC_7382.PNG
-    meta:
-      title: Dsc 7382
-      description: ''
-      collections:
-        - Paysages
-    exif: {}
-  - path: Portraits voitures/DSC_5892.jpg
-    meta:
-      title: Dsc 5892
-      description: ''
-      collections:
-        - Portraits voitures
-        - featured
-    exif:
-      captureDate: 2024-08-16T12:31:42.000Z
-      fNumber: 2
-      focalLength: 35
-      iso: 320
-      model: NIKON D7500
-      shutterSpeed: 250
+      shutterSpeed: 1250
       lensModel: 35.0 mm f/1.8
-  - path: Portraits voitures/DSC_5939.jpg
+  - path: Portraits voitures/DSC_5925.jpg
     meta:
-      title: Dsc 5939
+      title: Portraits Voitures
       description: ''
       collections:
         - Portraits voitures
         - featured
     exif:
-      captureDate: 2024-08-16T12:53:53.000Z
-      fNumber: 2
+      captureDate: 2025-11-22T10:30:31.000Z
+      fNumber: 2.8
       focalLength: 35
       iso: 400
       model: NIKON D7500
-      shutterSpeed: 1000
+      shutterSpeed: 800
       lensModel: 35.0 mm f/1.8
   - path: Portraits voitures/DSC_5999-2.jpg
     meta:
-      title: Dsc 5999 2
+      title: Portraits Voitures
       description: ''
       collections:
         - Portraits voitures
@@ -200,11 +1231,10 @@ images:
       lensModel: 18.0-140.0 mm f/3.5-5.6
   - path: Portraits voitures/DSC_6002.jpg
     meta:
-      title: Dsc 6002
+      title: Portraits Voitures
       description: ''
       collections:
         - Portraits voitures
-        - featured
     exif:
       captureDate: 2024-08-16T13:37:21.000Z
       fNumber: 5
@@ -213,23 +1243,136 @@ images:
       model: NIKON D7500
       shutterSpeed: 250
       lensModel: 18.0-140.0 mm f/3.5-5.6
-  - path: Portraits voitures/DSC_6083.jpg
+  - path: Portraits voitures/DSC_6023.jpg
     meta:
-      title: Dsc 6083
+      title: Portraits Voitures
       description: ''
       collections:
         - Portraits voitures
     exif:
-      captureDate: 2024-08-17T09:48:23.000Z
+      captureDate: 2025-11-22T11:51:56.000Z
+      fNumber: 5
+      focalLength: 62
+      iso: 800
+      model: NIKON D7500
+      shutterSpeed: 800
+      lensModel: 18.0-140.0 mm f/3.5-5.6
+  - path: Portraits voitures/DSC_6029.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+        - featured
+    exif:
+      captureDate: 2025-11-22T11:53:08.000Z
       fNumber: 4.5
-      focalLength: 42
+      focalLength: 45
+      iso: 800
+      model: NIKON D7500
+      shutterSpeed: 800
+      lensModel: 18.0-140.0 mm f/3.5-5.6
+  - path: Portraits voitures/DSC_6114.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2025-11-22T13:00:32.000Z
+      fNumber: 4.8
+      focalLength: 56
       iso: 400
       model: NIKON D7500
-      shutterSpeed: 320
+      shutterSpeed: 500
       lensModel: 18.0-140.0 mm f/3.5-5.6
+  - path: Portraits voitures/DSC_7589.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2025-12-29T13:26:20.000Z
+      fNumber: 4.5
+      focalLength: 48
+      iso: 250
+      model: NIKON D7500
+      shutterSpeed: 1000
+      lensModel: 18.0-140.0 mm f/3.5-5.6
+  - path: Portraits voitures/DSC_7646.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2025-12-29T13:42:01.000Z
+      fNumber: 3.2
+      focalLength: 35
+      iso: 50
+      model: NIKON D7500
+      shutterSpeed: 500
+      lensModel: 35.0 mm f/1.8
+  - path: Portraits voitures/DSC_7722.JPG
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2026-01-04T10:51:57.000Z
+      fNumber: 1.8
+      focalLength: 35
+      iso: 200
+      model: NIKON D7500
+      shutterSpeed: 1000
+      lensModel: 35.0 mm f/1.8
+  - path: Portraits voitures/DSC_7730.JPG
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2026-01-04T10:53:34.000Z
+      fNumber: 1.8
+      focalLength: 35
+      iso: 200
+      model: NIKON D7500
+      shutterSpeed: 1000
+      lensModel: 35.0 mm f/1.8
+  - path: Portraits voitures/DSC_7887.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2026-01-04T12:12:09.000Z
+      fNumber: 1.8
+      focalLength: 35
+      iso: 160
+      model: NIKON D7500
+      shutterSpeed: 1250
+      lensModel: 35.0 mm f/1.8
+  - path: Portraits voitures/DSC_7896.jpg
+    meta:
+      title: Portraits Voitures
+      description: ''
+      collections:
+        - Portraits voitures
+    exif:
+      captureDate: 2026-01-04T12:13:38.000Z
+      fNumber: 1.8
+      focalLength: 35
+      iso: 160
+      model: NIKON D7500
+      shutterSpeed: 1250
+      lensModel: 35.0 mm f/1.8
   - path: Portraits voitures/DSC_9789.jpg
     meta:
-      title: Dsc 9789
+      title: Portraits Voitures
       description: ''
       collections:
         - Portraits voitures
@@ -243,7 +1386,7 @@ images:
       lensModel: 35.0 mm f/1.8
   - path: Portraits voitures/DSC_9855.jpg
     meta:
-      title: Dsc 9855
+      title: Portraits Voitures
       description: ''
       collections:
         - Portraits voitures
@@ -257,7 +1400,7 @@ images:
       lensModel: 35.0 mm f/1.8
   - path: Portraits/DSC_6854 2.JPG
     meta:
-      title: Dsc 6854 2
+      title: Portraits
       description: ''
       collections:
         - Portraits
@@ -271,7 +1414,7 @@ images:
       lensModel: 18.0-140.0 mm f/3.5-5.6
   - path: Portraits/DSC_6939.JPG
     meta:
-      title: Dsc 6939
+      title: Portraits
       description: ''
       collections:
         - Portraits
@@ -285,7 +1428,7 @@ images:
       lensModel: 50.0 mm f/1.8
   - path: Portraits/DSC_6964 2.JPG
     meta:
-      title: Dsc 6964 2
+      title: Portraits
       description: ''
       collections:
         - Portraits
@@ -299,11 +1442,10 @@ images:
       lensModel: 50.0 mm f/1.8
   - path: Portraits/DSC_6976 2.JPG
     meta:
-      title: Dsc 6976 2
+      title: Portraits
       description: ''
       collections:
         - Portraits
-        - featured
     exif:
       captureDate: 2024-10-09T16:47:16.000Z
       fNumber: 1.8
@@ -314,11 +1456,10 @@ images:
       lensModel: 50.0 mm f/1.8
   - path: Portraits/DSC_7013.JPG
     meta:
-      title: Dsc 7013
+      title: Portraits
       description: ''
       collections:
         - Portraits
-        - featured
     exif:
       captureDate: 2024-10-09T16:50:50.000Z
       fNumber: 1.8
@@ -329,7 +1470,7 @@ images:
       lensModel: 50.0 mm f/1.8
   - path: Portraits/DSC_7022 2.JPG
     meta:
-      title: Dsc 7022 2
+      title: Portraits
       description: ''
       collections:
         - Portraits

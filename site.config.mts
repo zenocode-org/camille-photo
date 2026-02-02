@@ -11,7 +11,7 @@ export default {
 	title: 'Camille Rubio',
 	favicon: 'favicon.ico',
 	owner: 'Camille Rubio',
-	profileImage: 'profile.webp',
+	profileImage: 'profile-pic.jpg',
 	socialLinks: [
 		{
 			name: 'Instagram',
