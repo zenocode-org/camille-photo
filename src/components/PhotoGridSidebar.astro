@@ -395,51 +395,20 @@ const sortedCollections = collections
 	function setupSidebarFiltering() {
 		if (typeof document === 'undefined') return;
 
-		// Helper to check if element is actually visible (accounting for CSS media queries)
-		const isElementVisible = (el: HTMLElement): boolean => {
-			if (!el) return false;
-			const style = window.getComputedStyle(el);
-			return style.display !== 'none' && style.visibility !== 'hidden' && el.offsetParent !== null;
-		};
+		// Single init: both sidebars share state and are wired in one pass (avoids resize issues)
+		if (document.body.getAttribute('data-photo-filter-init') === 'true') return;
 
-		const isMobile = window.innerWidth < 1024; // lg breakpoint
-		let sidebar: HTMLElement | null = null;
+		const desktopContainer = document.getElementById('photo-grid-sidebar-container');
+		const mobileContainer = document.getElementById('photo-grid-sidebar-container-mobile');
+		const desktopSidebar = desktopContainer?.querySelector(
+			'.photo-grid-sidebar',
+		) as HTMLElement | null;
+		const mobileSidebar = mobileContainer?.querySelector(
+			'.photo-grid-sidebar',
+		) as HTMLElement | null;
+		const sidebars = [desktopSidebar, mobileSidebar].filter(Boolean) as HTMLElement[];
 
-		// On desktop, use desktop sidebar; on mobile, use mobile sidebar
-		if (!isMobile) {
-			// Desktop: find sidebar in desktop container
-			const desktopContainer = document.getElementById('photo-grid-sidebar-container');
-			if (desktopContainer) {
-				sidebar = desktopContainer.querySelector('.photo-grid-sidebar') as HTMLElement;
-			}
-		} else {
-			// Mobile: find sidebar in mobile container
-			const mobileContainer = document.getElementById('photo-grid-sidebar-container-mobile');
-			if (mobileContainer) {
-				sidebar = mobileContainer.querySelector('.photo-grid-sidebar') as HTMLElement;
-			}
-		}
-
-		// Fallback: if not found, try to find any visible sidebar
-		if (!sidebar) {
-			const allSidebars = document.querySelectorAll('.photo-grid-sidebar');
-			for (const s of allSidebars) {
-				const el = s as HTMLElement;
-				const parent = el.closest('[id*="sidebar-container"]') as HTMLElement;
-				// Check if sidebar and its container are actually visible
-				if (parent && isElementVisible(parent) && isElementVisible(el)) {
-					sidebar = el;
-					break;
-				}
-			}
-		}
-
-		if (!sidebar) return;
-
-		// Skip if this sidebar is already initialized
-		if (sidebar.getAttribute('data-filtering-initialized') === 'true') {
-			return;
-		}
+		if (sidebars.length === 0) return;
 
 		// Only count visible items to avoid double counting when both grid and vertical views exist
 		const getVisiblePhotoItems = () => {
@@ -455,10 +424,6 @@ const sortedCollections = collections
 			// Fallback: if neither is explicitly hidden, prefer grid view
 			return document.querySelectorAll('.photo-item');
 		};
-		const photoCountEl = sidebar?.querySelector('#photo-count') as HTMLElement;
-		const filterButtons = sidebar?.querySelectorAll('.filter-btn');
-		const clearFiltersBtn = sidebar?.querySelector('#clear-filters') as HTMLElement;
-		const moreButtons = sidebar?.querySelectorAll('.more-btn');
 
 		let activeFilters: FilterState = {};
 
@@ -562,54 +527,42 @@ const sortedCollections = collections
 		}
 
 		function updateCategoryCounts() {
-			// Count based on images that match OTHER active filters (excluding the filter being counted)
-			// This way each filter shows how many images match it, given the current filter context
 			const photoItems = getVisiblePhotoItems();
+			const visibleImages = getVisibleImages();
 
-			filterButtons?.forEach((btn) => {
-				const button = btn as HTMLElement;
-				const filterType = button.dataset.filter;
-				const filterValue = button.dataset.value;
-				const countSpan = button.querySelector('[data-count]') as HTMLElement;
+			sidebars.forEach((sidebar) => {
+				const filterButtons = sidebar.querySelectorAll('.filter-btn');
+				const photoCountEl = sidebar.querySelector('#photo-count') as HTMLElement;
 
-				if (!filterType || filterValue === undefined || !countSpan) return;
+				filterButtons?.forEach((btn) => {
+					const button = btn as HTMLElement;
+					const filterType = button.dataset.filter;
+					const filterValue = button.dataset.value;
+					const countSpan = button.querySelector('[data-count]') as HTMLElement;
 
-				// Count images that match this specific filter AND all other active filters
-				let count = 0;
-				photoItems.forEach((item) => {
-					const element = item as HTMLElement;
+					if (!filterType || filterValue === undefined || !countSpan) return;
 
-					// Check if this image matches the filter we're counting
-					if (!matchesSingleFilter(element, filterType, filterValue)) {
-						return;
-					}
-
-					// Check if this image matches all OTHER active filters (excluding the one we're counting)
-					let matchesOtherFilters = true;
-					for (const [key, value] of Object.entries(activeFilters)) {
-						if (key === filterType) continue; // Skip the filter we're counting
-						if (value !== undefined && value !== '') {
-							if (!matchesSingleFilter(element, key, value as string)) {
-								matchesOtherFilters = false;
-								break;
+					let count = 0;
+					photoItems.forEach((item) => {
+						const element = item as HTMLElement;
+						if (!matchesSingleFilter(element, filterType, filterValue)) return;
+						let matchesOtherFilters = true;
+						for (const [key, value] of Object.entries(activeFilters)) {
+							if (key === filterType) continue;
+							if (value !== undefined && value !== '') {
+								if (!matchesSingleFilter(element, key, value as string)) {
+									matchesOtherFilters = false;
+									break;
+								}
 							}
 						}
-					}
-
-					if (matchesOtherFilters) {
-						count++;
-					}
+						if (matchesOtherFilters) count++;
+					});
+					countSpan.textContent = `(${count})`;
 				});
 
-				// Update the count display
-				countSpan.textContent = `(${count})`;
+				if (photoCountEl) photoCountEl.textContent = visibleImages.length.toString();
 			});
-
-			// Update the main photo count
-			const visibleImages = getVisibleImages();
-			if (photoCountEl) {
-				photoCountEl.textContent = visibleImages.length.toString();
-			}
 		}
 
 		function applyFilters() {
@@ -636,34 +589,35 @@ const sortedCollections = collections
 		}
 
 		function updateButtonStates() {
-			filterButtons?.forEach((btn) => {
-				const button = btn as HTMLElement;
-				const filterType = button.dataset.filter;
-				const filterValue = button.dataset.value;
+			sidebars.forEach((sidebar) => {
+				const filterButtons = sidebar.querySelectorAll('.filter-btn');
+				filterButtons?.forEach((btn) => {
+					const button = btn as HTMLElement;
+					const filterType = button.dataset.filter;
+					const filterValue = button.dataset.value;
 
-				if (
-					filterType &&
-					filterValue !== undefined &&
-					activeFilters[filterType as keyof FilterState] === filterValue
-				) {
-					button.classList.add('bg-black', 'text-white');
-					button.classList.remove('bg-gray-100', 'hover:bg-gray-200', 'text-gray-700');
-					// Update count color for active buttons
-					const countSpan = button.querySelector('[data-count]') as HTMLElement;
-					if (countSpan) {
-						countSpan.classList.remove('text-gray-500');
-						countSpan.classList.add('text-gray-300');
+					if (
+						filterType &&
+						filterValue !== undefined &&
+						activeFilters[filterType as keyof FilterState] === filterValue
+					) {
+						button.classList.add('bg-black', 'text-white');
+						button.classList.remove('bg-gray-100', 'hover:bg-gray-200', 'text-gray-700');
+						const countSpan = button.querySelector('[data-count]') as HTMLElement;
+						if (countSpan) {
+							countSpan.classList.remove('text-gray-500');
+							countSpan.classList.add('text-gray-300');
+						}
+					} else {
+						button.classList.remove('bg-black', 'text-white');
+						button.classList.add('bg-gray-100', 'hover:bg-gray-200', 'text-gray-700');
+						const countSpan = button.querySelector('[data-count]') as HTMLElement;
+						if (countSpan) {
+							countSpan.classList.add('text-gray-500');
+							countSpan.classList.remove('text-gray-300');
+						}
 					}
-				} else {
-					button.classList.remove('bg-black', 'text-white');
-					button.classList.add('bg-gray-100', 'hover:bg-gray-200', 'text-gray-700');
-					// Restore count color for inactive buttons
-					const countSpan = button.querySelector('[data-count]') as HTMLElement;
-					if (countSpan) {
-						countSpan.classList.add('text-gray-500');
-						countSpan.classList.remove('text-gray-300');
-					}
-				}
+				});
 			});
 		}
 
@@ -733,29 +687,26 @@ const sortedCollections = collections
 			}
 		}
 
-		// Attach event listeners
-		filterButtons?.forEach((btn) => {
-			btn.addEventListener('click', handleFilterClick);
+		// Attach event listeners to both sidebars (shared state, same handlers)
+		sidebars.forEach((sidebar) => {
+			const filterButtons = sidebar.querySelectorAll('.filter-btn');
+			const clearFiltersBtn = sidebar.querySelector('#clear-filters') as HTMLElement;
+			const moreButtons = sidebar.querySelectorAll('.more-btn');
+
+			filterButtons?.forEach((btn) => btn.addEventListener('click', handleFilterClick));
+			clearFiltersBtn?.addEventListener('click', clearFilters);
+			moreButtons?.forEach((btn) => btn.addEventListener('click', handleMoreClick));
 		});
 
-		clearFiltersBtn?.addEventListener('click', clearFilters);
-
-		moreButtons?.forEach((btn) => {
-			btn.addEventListener('click', handleMoreClick);
-		});
-
-		// Initialize with collection filter if present
-		const initialCollection = sidebar?.dataset.selectedCollection;
+		// Initialize with collection filter if present (same on both sidebars)
+		const initialCollection = sidebars[0]?.dataset.selectedCollection;
 		if (initialCollection !== undefined) {
 			activeFilters.collection = initialCollection || '';
 		}
 
 		applyFilters();
 
-		// Mark this sidebar as initialized
-		if (sidebar) {
-			sidebar.setAttribute('data-filtering-initialized', 'true');
-		}
+		document.body.setAttribute('data-photo-filter-init', 'true');
 	}
 
 	if (typeof window !== 'undefined') {
