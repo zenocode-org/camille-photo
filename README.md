@@ -179,7 +179,6 @@ When you upload images through Pages CMS and commit:
 ## ⚙️ Provided GitHub actions
 
 - [Build & Test](./.github/workflows/test.yml) - Ensure build integrity
-- [Quality](./.github/workflows/quality.yml) - Run pre-commit checks
 - [Deploy Astro Site](./.github/workflows/deploy.yml) - Publish to GitHub pages
 
 ## 📄 License
