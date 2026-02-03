@@ -20,16 +20,32 @@ export default function PhotoVerticalViewManager({ images }: PhotoVerticalViewMa
 			// Don't handle clicks if it's already selected
 			if (photoItem.classList.contains('selected')) return;
 
-			// Get image title from photo-item's data attribute or from nested data-photo-title
-			let imageTitle = photoItem.dataset.imageTitle;
-			if (!imageTitle) {
-				const photoTitleElement = photoItem.querySelector('[data-photo-title]') as HTMLElement;
-				imageTitle = photoTitleElement?.dataset.photoTitle || undefined;
+			// Try to get the image index from the photo-item.
+			// This is more reliable than using the title, which can be duplicated across images.
+			const imageIndexAttr = photoItem.dataset.imageIndex;
+			let image: ImageType | undefined;
+
+			if (imageIndexAttr !== undefined) {
+				const imageIndex = parseInt(imageIndexAttr, 10);
+				if (!Number.isNaN(imageIndex) && imageIndex >= 0 && imageIndex < images.length) {
+					image = images[imageIndex];
+				}
 			}
 
-			if (!imageTitle) return;
+			// Fallback: try to resolve by title if index is not available
+			if (!image) {
+				// Get image title from photo-item's data attribute or from nested data-photo-title
+				let imageTitle = photoItem.dataset.imageTitle;
+				if (!imageTitle) {
+					const photoTitleElement = photoItem.querySelector('[data-photo-title]') as HTMLElement;
+					imageTitle = photoTitleElement?.dataset.photoTitle || undefined;
+				}
 
-			const image = images.find((img) => img.title === imageTitle);
+				if (!imageTitle) return;
+
+				image = images.find((img) => img.title === imageTitle);
+			}
+
 			if (!image) return;
 
 			e.preventDefault();
